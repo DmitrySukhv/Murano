@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="AllTests">
+    <test name="GUITest">
+        <classes>
+            <class name="SeleniumTest">
+                <methods>
+                    <include name="theTest" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
